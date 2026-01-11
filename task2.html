@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+
+    <!-- Style -->
+     <style>
+        #section{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            gap: 10px;
+            height: 100vh;
+        }
+  
+
+        .LeftSide{
+            background-color: red;
+            width: 50%;
+            height: 100%;
+        }
+
+        .RightSide{
+            width: 50%;
+           
+            display: grid;
+            height: 100%;
+            gap: 10px;
+            
+           
+            
+           
+        }
+
+        .RightSide-upper{
+            background-color: rgb(153, 153, 48);
+            height: 50vh;
+
+        }
+
+        .RightSide-lower{
+            display: flex;
+            justify-content: space-between;
+            height: 50vh;
+            width: 100%;
+            gap: 10px;
+            
+        }
+
+        .Right-Side-Lower-Left{
+            background-color: purple;
+            width: 50%;
+
+        }
+
+        .Right-Side-Lower-Right{
+            background-color: blue;
+            width: 50%;
+        }
+
+
+
+        h1{
+            color: white;
+            margin-left: 5px;
+            font-size: 36px;
+        }
+
+        
+
+     </style>
+</head>
+<body>
+
+    <section id="section">
+        <!-- Left Side Div -->
+    <div class="LeftSide">
+        <h1>1</h1>
+
+    </div>
+
+    <!-- Right Side Div -->
+    <div class="RightSide">
+
+        <!-- Right Side Upper -->
+        <div class="RightSide-upper">
+            <h1>2</h1>
+
+        </div>
+
+        <!-- Right Side Lower -->
+        <div class="RightSide-lower">
+            <!-- Right Side Lower Left  -->
+            <div class="Right-Side-Lower-Left">
+                <h1>3</h1>
+            </div>
+
+            <!-- Right Side Lower Right -->
+             <div class="Right-Side-Lower-Right">
+                <h1>4</h1>
+             </div>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
